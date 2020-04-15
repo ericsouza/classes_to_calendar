@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "auto_create_class_events"
+version = "0.2.1"
+description = "Projeto para criaçao de eventos no google calendar de forma automatica"
+authors = ["Eric Souza <ericsouza0801@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+google-auth = "^1.14.0"
+google-api-python-client = "^1.8.0"
+google-auth-oauthlib = "^0.4.1"
+PyPDF2 = "^1.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
